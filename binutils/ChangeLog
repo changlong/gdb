@@ -1,0 +1,32 @@
+2014-01-08  H.J. Lu  <hongjiu.lu@intel.com>
+
+	* version.c (print_version): Update copyright year to 2014.
+
+2014-01-07  Tom Tromey  <tromey@redhat.com>
+
+	* bucomm.c (fatal, non_fatal): Replace obsolete VA_* macros with
+	stdarg macros.
+	* dlltool.c (inform): Replace obsolete VA_* macros with stdarg
+	macros.
+	* dllwrap.c (inform, warn): Replace obsolete VA_* macros with
+	stdarg macros.
+
+2014-01-07  Tom Tromey  <tromey@redhat.com>
+
+	* coffgrok.h (coff_ofile): Don't use PARAMS.
+	* nlmheader.y (strerror): Don't use PARAMS.
+
+For older changes see ChangeLog-2013
+
+Copyright (C) 2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Local Variables:
+mode: change-log
+left-margin: 8
+fill-column: 74
+version-control: never
+End:

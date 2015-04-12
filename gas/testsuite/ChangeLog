@@ -1,0 +1,34 @@
+2014-01-22  Michael Zolotukhin  <michael.v.zolotukhin@gmail.com>
+
+	PR gas/16489
+	* gas/i386/vgather-check.s: Add tests for AVX512 gathers.
+	* gas/i386/x86-64-vgather-check.s: Likewise.
+	* gas/i386/vgather-check-error.l: Update correspondingly.
+	* gas/i386/vgather-check-none.d: Likewise.
+	* gas/i386/vgather-check-warn.d: Likewise.
+	* gas/i386/vgather-check-warn.e: Likewise.
+	* gas/i386/vgather-check.d: Likewise.
+	* gas/i386/x86-64-vgather-check-error.l: Likewise.
+	* gas/i386/x86-64-vgather-check-none.d: Likewise.
+	* gas/i386/x86-64-vgather-check-warn.d: Likewise.
+	* gas/i386/x86-64-vgather-check-warn.e: Likewise.
+	* gas/i386/x86-64-vgather-check.d: Likewise.
+
+2014-01-17  Will Newton  <will.newton@linaro.org>
+
+	* gas/arm/armv8-a+fp.d: Correct encoding of vcvta.s32.f64.
+
+For older changes see ChangeLog-2013
+
+Copyright (C) 2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Local Variables:
+mode: change-log
+left-margin: 8
+fill-column: 74
+version-control: never
+End:
